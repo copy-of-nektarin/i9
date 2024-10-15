@@ -1,0 +1,63 @@
+:root {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+#app {
+    width: 100%;
+    min-height: 100vh;
+}
+
+button, input, select {
+    outline: none;
+    padding: 0.6rem 1rem;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.wrapper-block {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.products-viewer {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    width: 100%;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.product-item__name {
+    text-transform: capitalize;
+}
+
+.add-product-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-form {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
